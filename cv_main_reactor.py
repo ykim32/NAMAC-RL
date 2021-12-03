@@ -11,7 +11,7 @@ File: Main function for Nuclear reactor operation,
   - Linux: 3.10.0
   - Main packages: Python 3.6.9, Tensorflow 1.3.0, Keras 2.0.8, pandas 0.25.3, numpy 1.16.4
 ========================================================================================
-* Offline training data: The EHRs cannot be shared
+* Offline data from GOTHIC simulator
 ========================================================================================
 * Excution for each method:
 DQN: $ python main.py -method=DQN, -func={Dense, LSTM}, -trainMinTI=1, -trainMaxTI=1, -testMinTI=1 -testMaxTI=8
@@ -51,7 +51,7 @@ import ReactorAgent
 import TQN as tq
 import Utility as ut
 import ReactorSimulator as rs
-# import lib_dqn_lstm as ld
+
 
 def round_cut(x):
     return int(np.round(x*100))/100
