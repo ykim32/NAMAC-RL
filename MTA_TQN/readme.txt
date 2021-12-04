@@ -2,7 +2,6 @@
 # coding: utf-8
 
 """========================================================================================
-Author: Yeojin Kim
 Latest update date: 07/22/2021
 File: Main function for Nuclear reactor operation,
              using Temporal Abstraction with Time-aware deep Q-networks
