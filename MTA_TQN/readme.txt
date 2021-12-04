@@ -19,7 +19,7 @@ TQN: $ python main.py -method=TQN,-func={Dense, LSTM}, -trainMinTI=1, -trainMaxT
 TA-DQN: $ python main.py -method=TQN,-func={Dense, LSTM}, -trainMinTI=3, -trainMaxTI=5, -testMinTI=3 -testMaxTI=5
 TA-TQN: $ python main.py -method=TQN,-func={Dense, LSTM}, -trainMinTI=3, -trainMaxTI=5, -testMinTI=3 -testMaxTI=5
 
-more options:  -b 0.1 -tf 2880 -d 0.97 -hu 128 -t 200000 -msl 5 -g 3 -cvf 0 -g 0
+more options:  -b 0.1 -tf 200 -d 0.97 -hu 128 -t 200000 -msl 5 -g 3 -cvf 0 -g 0
   - b: belief for the temporal discount function
   - tf: task time window for the temporal discount function
   - d : constant discount
